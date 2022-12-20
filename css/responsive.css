@@ -1,0 +1,26 @@
+/* width & height - expample 1 */
+/* @media (max-width:800px) {
+    .left-block,
+    .right-block  {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+@media (max-width:480px) {
+    .right-block {
+        display: none;
+    }
+} */
+
+
+/* fledx-direction example 2 */
+@media (max-width:950px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .center-block {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
