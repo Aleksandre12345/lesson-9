@@ -23,8 +23,22 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
  
 
-/* Responsive */
+/* images expample */
+
+.images-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-block {
+    width: 250px;
+}
+
+.images-block img {
+    width: 100%;
+}
